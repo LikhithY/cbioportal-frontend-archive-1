@@ -116,6 +116,7 @@ export default class SettingsMenu extends React.Component<
                     style={{ color: 'rgb(54, 134, 194)' }}
                     tooltip={
                         <span>
+                            <span> An alteration is annotated as a putative driver if any of the selected sources below annotates it as a potential driver.</span>
                             Putative driver vs VUS setings apply to every tab
                             except{' '}
                             <BoldedSpanList
